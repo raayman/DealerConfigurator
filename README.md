@@ -1,13 +1,62 @@
-# React + Vite
+# Vehicle Configurator (In Progress)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern interactive vehicle configurator for dealership use. 
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Modern, responsive UI
+- Smooth animations powered by Framer Motion
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-"# DealerConfigurator" 
+- React 18
+- Vite
+- Framer Motion
+- Tailwind CSS
+
+## 📦 Installation
+
+1. Clone the repository:
+```bash
+git clone [your-repository-url]
+cd vehicle
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Start the development server:
+```bash
+npm run dev
+```
+
+## 🏗️ Available Scripts
+
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run preview` - Preview production build
+- `npm run lint` - Run ESLint
+
+## 🎨 Project Structure
+
+```
+vehicle/
+├── src/           # Source files
+├── public/        # Static assets
+├── index.html     # Entry HTML file
+└── vite.config.js # Vite configuration
+```
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## 📝 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Author
+
+Made by Rayyan
