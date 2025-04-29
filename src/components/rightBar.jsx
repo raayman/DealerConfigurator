@@ -6,14 +6,13 @@ export default function RightBar() {
     const [isOpen, setIsOpen] = useState(true)
     return (
         <div className="overflow-hidden">
-            <div className={`min-h-screen font-figtree absolute right-0 border-l-2 transition-all duration-300 border-gray-200 ${isOpen ? 'w-[24em]' : 'w-[0em] right-5'}`}>
+            <div className={`min-h-screen bg-white font-figtree absolute right-0 border-l-2 transition-all duration-300 border-gray-200 ${isOpen ? 'w-[24em]' : 'w-[0em] right-5'}`}>
                 <div className="flex flex-col h-full overflow-hidden">
 
                     {/* visiblity arrow */}
-                    <div className="flex absolute cursor-pointer top-1/2 left-[-1.4em] items-center justify-center bg-white rounded-full border-[1px] border-gray-200 flex-row justify-end items-center p-2">
+                    <div onClick={() => setIsOpen(!isOpen)} className="flex absolute cursor-pointer top-1/2 left-[-1.4em] items-center justify-center bg-white rounded-full border-[1px] border-gray-200 flex-row justify-end items-center p-2">
                         <motion.button
                             className="text-2xl cursor-pointer font-semibold"
-                            onClick={() => setIsOpen(!isOpen)}
                             animate={{
                                 rotate: isOpen ? 0 : 180,
                             }}
@@ -47,7 +46,7 @@ export default function RightBar() {
                                 duration: 0.4,
                                 ease: 'easeInOut',
                             }}
-                        >Configurator</motion.h1>
+                        >Audi S5</motion.h1>
                     </motion.div>
 
                 </div>
